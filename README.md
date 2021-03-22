@@ -17,7 +17,7 @@ The ECAS monitoring system consists of two dashboards, which have been adapted w
 
 * **Application_Metrics.json.**: it shows information about which operator/workflow is being executed and its current execution status and provides aggregated information over time (e.g. number of total, completed and failed workflows/tasks, hourly weighted average of running cores).
 
-<img src="imgs/ecas-application-dashboard.png" width="60%">
+<p align="center"><img src="imgs/ecas-application-dashboard.png" width="60%"></p>
 
 Monitoring scripts
 ------------------
