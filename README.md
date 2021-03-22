@@ -7,7 +7,17 @@ Grafana dashboard JSON codes
 ------------------
 The ECAS monitoring system consists of two dashboards, which have been adapted with respect to the ECASLab versions in order to reflect the elastic behavior of the cluster in terms of number of active working node instances.
 * **Infrastructure_Metrics.json.**: it provides information about the percentage of CPU, RAM, SWAP and disk used on each node (the front-end and the working nodes);   
+
+<table>
+<tr>
+<td><img src="imgs/ecas-infra-dashboard-server.png"></td>
+<td><img src="imgs/ecas-infra-dashboard-io.png"></td>
+</tr>
+</table>
+
 * **Application_Metrics.json.**: it shows information about which operator/workflow is being executed and its current execution status and provides aggregated information over time (e.g. number of total, completed and failed workflows/tasks, hourly weighted average of running cores).
+
+![Application dashboard](imgs/ecas-application-dashboard.png)
 
 Monitoring scripts
 ------------------
